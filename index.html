@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madhav</title>
+   <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <header class="main-header">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">Home</a>
+            <a href="#">Projects</a>
+            <a href="#">Contact Us</a>
+          </div>
+        <div>
+            <span style="font-size:40px;cursor:pointer" class="side-nav-btn" onclick="openNav()">&#9776;</span>
+            <a href="index.html" class = "main-brand">M</a>
+        </div>
+        <nav class="main-nav">
+            <ul class="main-nav__items"> 
+                <li class ="main-nav__item">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class ="main-nav__item">
+                    <a href="">Projects</a>
+                </li>
+                <li class ="main-nav__item main-nav__item--cta a ">
+                    <a href="">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+   
+
+    <main class="main-section">
+        <div class="intro-container">
+            <div class = "intro-section">
+                <div class = "intro-section__item">
+                    <h1 class="name">Hii, I am</h1>
+                </div> 
+                <div class ="intro-section__item">
+                    <h1 class="name">Madhav raj Verma</h1>
+                 </div>
+                 <p class = "work-section">Web developer and Ios Developer</p>
+                 <div class="btn-section">
+                     <button class = "download-btn">DOWNLOAD CV</button> 
+                 </div>
+            </div>
+            <div class="image-container">
+                <img src="profile.png" class="main-image" alt="">
+            </div>
+        </div>
+
+        <div class="skills-section">
+            <h1 class="intro-skills">Skills</h1>
+         <section class="skills-section-container">
+            <div class="skills_container">
+                <p class="skill">Swift</p>
+                <p class="skill">SwiftUI</p>
+                <p class="skill">Fireabse</p>
+                <p class="skill">Node Js</p>
+                <p class="skill">Express JS</p>
+            </div>
+
+            <div class="skills_container">
+                <p class="skill">Core data</p>
+                <p class="skill">MongoDB</p>
+                <p class="skill">HTML</p>
+                <p class="skill">CSS</p>
+                <p class="skill">RestAPI/GraphQL</p>
+            </div>
+            </div>
+        </section>
+        </div>
+        <div class="project-section">
+            <h1 class="intro-Projects">Projects</h1> 
+            <div class="projects-container">
+                <div class="single-project">
+                    <img src="project1.png" class="project-img" alt="">
+                    <div class="project-tech__name">
+                        <p class="project-name">Social Media app</p>
+                        <p class="project-tech">(SwiftUI ,Firebase)</p>
+                    </div>
+
+                </div>
+                <div class="single-project">
+                    <img src="project2.png" class="project-img" alt="">
+                    <div class="project-tech__name">
+                        <p class="project-name">Ecommmerce Site</p>
+                        <p class="project-tech">(Express Js ,MongoDB)</p>
+                    </div>
+                </div>
+                <div class="single-project">
+                    <img src="project2.png" class="project-img" alt="">
+                    <div class="project-tech__name">
+                        <p class="project-name">Ecommmerce Site</p>
+                        <p class="project-tech">(Express Js ,MongoDB)</p>
+                    </div>
+                </div>
+            </div>
+            <button class="see-all__btn">SEE ALL </button>
+        </div>
+        <div class="ContactUs-section">
+            <h1 class="intro-contactus">Contact Us</h1> 
+           <div class="ContactUs-container">
+            <div class="contactus-image">
+                <img src="email.png" class="email-img" alt="">
+            </div>
+           <form action="" class="contact-form">
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Email">
+                <textarea name="Message" id="" cols="30" rows="10" placeholder ="Message" ></textarea>
+                <button class = "send-form-btn">SEND</button>
+           </form>
+           </div>
+        </div>
+    </main>
+    <footer class="main-footer">
+        <ul class = "main-footer-links">
+            <li  class = "main-footer__link">
+                <a href="">
+                    <img src="fb.jpg" alt="" class="main-footer__link_img">
+                </a>
+            </li>
+            <li class = "main-footer__link">
+                <a href="">
+                    <img src="linkedin.jpg" alt="" class="main-footer__link_img">
+                </a>
+            </li>
+            <li class = "main-footer__link">
+                <a href="">
+                    <img src="twitter.jpg" alt="" class="main-footer__link_img">
+                </a>
+            </li>
+        </ul>
+        <p class = "copyright">&copy; Madhav Raj verma</p>
+    </footer>
+
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+</body>
+</html>
+
+
+
+
+<!-- 
+<nav class="mobile-nav">
+    <ul class="mobile-nav__items">
+        <li class="mobile-nav__item">
+            <a href="">Home</a>
+        </li>
+        <li class="mobile-nav__item">
+            <a href="">Projects</a>
+        </li>
+        <li class="mobile-nav__item mobile-nav__item--cta">
+            <a href="">Contact Us</a>
+        </li>
+    </ul>
+</nav> -->
+
