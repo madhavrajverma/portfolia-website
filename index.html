@@ -149,11 +149,25 @@
         function closeNav() {
           document.getElementById("mySidenav").style.width = "0";
         }
+        const singleProject = document.querySelectorAll(".single-project")
+        
+        window.addEventListener("scroll",checkProject)
+
+        function checkProject() {
+          const triggerBottom =  window.innerHeight / 5*4;
+          singleProject.forEach(project => {
+              const projectTop = project.getBoundingClientRect().top
+
+              if(projectTop < triggerBottom) {
+                  project.classList.add("show")
+              } else {
+                  project.classList.remove("show")
+              }
+          })
+        }
         </script>
 </body>
 </html>
-
-
 
 
 
