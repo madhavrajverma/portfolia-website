@@ -445,6 +445,10 @@ form textarea{
     background-color: var(--footer-color);
 }
 
+
+.main-footer ul {
+    padding: 0;
+}
 .main-footer-links{
     display: flex;
     list-style: none;
