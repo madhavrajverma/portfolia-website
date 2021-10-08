@@ -115,7 +115,7 @@ body {
   }
 
   
-  @media screen and (max-width: 40rem) {
+  @media screen and (max-width: 50rem) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
    
@@ -196,6 +196,10 @@ body {
         align-items: center;
         align-content: center;
     }
+
+    .name {
+        font-size: 2rem;
+    }
     
     
 }
@@ -232,7 +236,7 @@ body {
 }
 
 
-@media (max-width: 40rem) {
+@media (max-width: 50rem) {
 
     .skills-section-container{
         flex-direction: row;
@@ -241,6 +245,10 @@ body {
 
     .skills_container{
         flex-direction: column;
+    }
+
+    .skill {
+        font-size:1rem;
     }
 }
 
@@ -266,7 +274,7 @@ body {
   border-radius: 10px;
   margin: 2rem;
   top:0;
-  transition: all ease 0.5s;
+  transition: all ease-in 0.2s;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   cursor: pointer;
 
@@ -322,11 +330,19 @@ body {
     border-style: no;
     border: 1px solid gray;
 }
+@media (max-width:70rem) {
+    .single-project{
+        padding: 1rem 1rem;
+    } 
+    .project-img {
+        height:18vh;
+        padding:1rem;
+    }
+}
 
 @media (max-width: 50rem) {
     .projects-container{
         flex-direction: column;
-        
     }
 
     .project-img{
@@ -413,7 +429,7 @@ form textarea{
 
 }
 
-@media (max-width: 40rem) {
+@media (max-width: 50rem) {
     .ContactUs-container {
         flex-direction: column;
         align-content: center;
@@ -425,13 +441,12 @@ form textarea{
 
     form input[type="text"] {
         width:80vw;
-        background-color:white;
+        
     
     }
 
     form textarea{
         width:80vw; 
-        background-color:white;
     }
     
 }
@@ -442,17 +457,18 @@ form textarea{
     flex-direction: column;
     align-items:center;
     align-content: center;
+    justify-content:center;
     background-color: var(--footer-color);
 }
-
-
 .main-footer ul {
     padding: 0;
 }
+
 .main-footer-links{
     display: flex;
     list-style: none;
-    justify-content: center;
+    justify-content:center;
+    align-items: center;
 }
 
 .main-footer-link:hover {
@@ -461,7 +477,7 @@ form textarea{
 
 .main-footer__link_img{
     width:3rem;
-    margin: 0 1.5rem;
+    margin: 1.5rem;
     border-radius: 5rem;
 }
 .copyright {
