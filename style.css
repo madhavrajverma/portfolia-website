@@ -115,7 +115,7 @@ body {
   }
 
   
-  @media screen and (max-width: 50rem) {
+  @media screen and (max-width: 40rem) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
    
@@ -232,7 +232,7 @@ body {
 }
 
 
-@media (max-width: 50rem) {
+@media (max-width: 40rem) {
 
     .skills-section-container{
         flex-direction: row;
@@ -413,7 +413,7 @@ form textarea{
 
 }
 
-@media (max-width: 50rem) {
+@media (max-width: 40rem) {
     .ContactUs-container {
         flex-direction: column;
         align-content: center;
