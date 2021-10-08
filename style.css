@@ -161,6 +161,7 @@ body {
     width: 100%;
 }
 
+
 .download-btn {
     padding:1rem 4rem;
     background-color:var(--blue-color);
@@ -170,15 +171,17 @@ body {
     cursor: pointer;
     border-style: none;
     font-size: 1.1rem;    
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.download-btn:hover {
+.download-btn:hover ,.download-btn:active{
     color: var(--blue-color);
     background: white;
     border-style: no;
     border: 1px solid black;
     
 }
+
 
 
 @media (max-width: 50rem) {
